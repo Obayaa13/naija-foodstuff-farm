@@ -90,6 +90,7 @@ nav a:hover{
     color:black;
     background-size:cover;
     background-position:center;
+    justify-content: center;
 }
 .something h1{
     display:flex;
@@ -130,10 +131,10 @@ nav a:hover{
 
 } */
 
-/* .something-text{
-    display: flex;
-    justify-content: center;
-} */
+ .something-text{
+    text-align: center;
+ }
+
 .something-text p{
 /* display: flex; */
 /* justify-content: center; */
@@ -154,13 +155,26 @@ margin-bottom: 25px;
     align-items: center;
      display: block;
     margin: 0 auto;
-    width: 200%;
+    width: 300px;
+    height: auto;
     /* background-color: red; */
 }
  
+  
+
+.motto{
+    text-align: center;
+    font-size: 24px;
+    color: #0f8b4c;
+    font-weight: bold;
+    margin-top: 20px;
+    font-style: italic;
+}
+
 
 .something-logo{
     width: 150px;
+    background-color: aqua;
 }
 .categories{
     display: flex;
